@@ -19,5 +19,7 @@ Firstly, I chose to use decision trees for prediction for several reasons：
 1. decision trees have very easy to understand decision rules
 2. decision trees can handle non-linear features
 3. the interactions between variables are taken into account
+
 The prediction model based on the decision tree can reach 97.386% accuracy
+
 In the final distribution of importance, it can be seen that the number of towers plays a crucial role in winning or losing a match, followed by earnded gmp, team death and team kills

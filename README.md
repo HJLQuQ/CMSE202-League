@@ -11,3 +11,11 @@ Data Cleaning and Aquisition: Anirudh Agaram
        dragons (type unknown), 'irstbaron, barons, towers,
        firstmidtower, firsttothreetowers, inhibitors, earnedgold,
        earned gpm, gspd, golddiffat10, golddiffat15, and xpdiffat15 remained in the dataset. The filtering was done by making the dataset into a correlation matrix and finding the features that correlated highest with the result of the match (win/loss).
+
+
+Decision Tree Classifier : Haizhou Wang
+First I chose to use decision trees for prediction for several reasons：
+1. decision trees have very easy to understand decision rules
+2. decision trees can handle non-linear features
+3. the interactions between variables are taken into account
+The prediction model based on the decision tree can reach 97.386% accuracy

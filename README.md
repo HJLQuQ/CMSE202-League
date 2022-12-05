@@ -31,3 +31,11 @@ Linear and Logistic Regression: Zhoufan Yu
 2. Using the statistics data in the group stage (https://gol.gg/teams/list/season-ALL/split-ALL/tournament-World%20Championship%202022/), we were able to build the linear regression model to predict the group stage winning ratio. The model MSE is 0.0127
 
 3. Eventually, the results of knockout stage can be predicted by using the weighted winning ratio, which is consist of 70% weights of the group stage and 30% weights of the regional winning ratio. 
+
+Multiple regression: Jeremy Bouford
+
+This part contains an OLS multiple regression on the variable 'towers'. This is, as observed from other analysis, the variable that tells us the most about who will win the match. It fits the data with an adjusted R-squared of 0.913 and all of the predictors have a significance level below 0.05.
+
+This is of importance because we can use this model to see what other aspects of the game lead to teams destroying opposing teams towers which is ultimately how a team wins the match.
+
+

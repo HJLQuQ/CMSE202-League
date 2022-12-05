@@ -30,4 +30,4 @@ Linear and Logistic Regression: Zhoufan Yu
 
 2. Using the tournament statistics data in the Worlds (https://gol.gg/teams/list/season-ALL/split-ALL/tournament-World%20Championship%202022/), we were able to build the linear regression model to predict the tournament winning ratio. The model MSE is 0.0127
 
-3.Eventually, the results of knocked-off stage can be predicted by using the weighted winning ratio, which is consist of 70% weights of the tournament and 30% weights of the regional winning ratio. 
+3. Eventually, the results of knocked-off stage can be predicted by using the weighted winning ratio, which is consist of 70% weights of the tournament and 30% weights of the regional winning ratio. 

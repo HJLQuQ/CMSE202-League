@@ -23,3 +23,11 @@ Firstly, I chose to use decision trees for prediction for several reasons：
 The prediction model based on the decision tree can reach 97.386% accuracy
 
 In the final distribution of importance, it can be seen that the number of towers plays a crucial role in winning or losing a match, followed by earnded gmp, team death and team kills
+
+Linear and Logistic Regression: Zhoufan Yu
+
+1. Using the regional statistics data from Oracle Elixir in year 2022, we applied the Logistic regression classifier to predict the winning ratio of each team in their own regions. The predicted probabilities that are greater than 80 are considered winning. The training error of the model is: 0.0171, and test error is: 0.0224.
+
+2. Using the tournament statistics data in the Worlds (https://gol.gg/teams/list/season-ALL/split-ALL/tournament-World%20Championship%202022/), we were able to build the linear regression model to predict the tournament winning ratio. The model MSE is 0.0127
+
+3.Eventually, the results of knocked-off stage can be predicted by using the weighted winning ratio, which is consist of 70% weights of the tournament and 30% weights of the regional winning ratio. 
